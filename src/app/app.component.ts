@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'no';
+
+  clicktext='click';
+  canceltext='cancel';
+
+
+  clicked(name:string){
+
+this.clicktext='taped'
+
+  console.log(name);
+
+
+
+  }
+
 }
