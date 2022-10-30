@@ -14,7 +14,7 @@ export class AppComponent {
 
   clicked(name:string){
 
-this.clicktext='taped'
+this.clicktext='welcome to Ps'
 
   console.log(name);
 
