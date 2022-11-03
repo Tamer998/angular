@@ -21,5 +21,9 @@ this.clicktext='welcome to Ps'
 
 
   }
+avatarClicked(){
 
+console.log("profile")
+
+}
 }
