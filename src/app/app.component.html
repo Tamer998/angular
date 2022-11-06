@@ -1,5 +1,5 @@
 
-<app-header></app-header>
+<app-header [title]="clicktext" (avatarClicked)="avatarclick($event)" ></app-header>
 <app-button (myClick)="clicked('click')" text="click"></app-button>
 
 <app-button (myClick)="clicked('cancel')" text="cancel"></app-button>

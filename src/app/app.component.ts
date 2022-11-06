@@ -23,7 +23,15 @@ this.clicktext='welcome to Ps'
   }
 avatarClicked(){
 
-console.log("profile")
+
 
 }
+
+
+avatarclick(event:Event){
+
+  console.log(event)
+}
+
+
 }
